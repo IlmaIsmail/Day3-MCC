@@ -26,7 +26,14 @@ function App() {
   }
   return (
      <Container>
-
+        <Row>
+          <Col>
+            <image src={logo}/>
+          </Col>
+          <Col>
+            <Mycont msg="Hello react!" dosum={sum}/>
+          </Col>
+        </Row>
      </Container>
   );
 }

@@ -34,6 +34,15 @@ function App() {
             <Mycont msg="Hello react!" dosum={sum}/>
           </Col>
         </Row>
+        <Row>
+          <Col md="8">
+            <Student regno="2020/IT/01" name="P.Kolins" age="25" degree="IT"/>
+          </Col>
+          <Col>
+            <Books bdata={books} onSelectBook={selectedBook}/>
+          </Col>
+        </Row>
+        <Row>3</Row>
      </Container>
   );
 }

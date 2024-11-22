@@ -2,9 +2,10 @@ import './App.css';
 import Books from './components/Books';
 import Mycont from './components/Mycont';
 import Student from './components/Student';
-import Container from './react-bootstrap/Container';
-import Raw from './react-bootstrap/Row';
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from "react-bootstrap/Col";
+import logo from "./logo.svg";
 
 
 function App() {

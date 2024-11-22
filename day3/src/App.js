@@ -7,11 +7,11 @@ import Row from 'react-bootstrap/Row';
 import Col from "react-bootstrap/Col";
 import logo from "./logo.svg";
 
-
+//parent
 function App() {
   const sum=(num1,num2)=>{
     const s=num1+num2;
-    console.log(`Sum is `+s);
+    console.log(`Sum is `+ s);
     return s;
   }
 
@@ -23,7 +23,7 @@ function App() {
     {id:"uov129",name:"modern web app",page:450}, 
   ];
   const selectedBook =(book)=>{
-    console.log(`selected book is ${book.name} which has ${book.pages} pages`)
+    console.log(`selected book is ${book.name} which has ${book.pages} pages`);
   }
   return (
      <Container>
@@ -32,7 +32,7 @@ function App() {
             <image src={logo}/>
           </Col>
           <Col>
-            <Mycont msg="Hello react!" dosum={sum}/>
+            <Mycont msg="Hello react!" dosum={sum} />
           </Col>
         </Row>
         <Row>

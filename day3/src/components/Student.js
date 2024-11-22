@@ -3,7 +3,16 @@ export default function Student({regno,name,age,degree}){
         <>
         <table>
             <tr>
-                
+                <td>Reg No:</td>
+                <td>{regno}</td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td>{name}</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>{age}</td>
             </tr>
         </table>
         </>

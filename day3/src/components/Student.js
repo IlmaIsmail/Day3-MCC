@@ -11,8 +11,12 @@ export default function Student({regno,name,age,degree}){
                 <td>{name}</td>
             </tr>
             <tr>
-                <td>Age</td>
+                <td>Age:</td>
                 <td>{age}</td>
+            </tr>
+            <tr>
+                <td>Degree:</td>
+                <td>{degree}</td>
             </tr>
         </table>
         </>
